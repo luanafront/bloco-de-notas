@@ -13,6 +13,7 @@
     --rosa-claro: #EE7878;
 
     --fonte: Fira Code;
+    font-size: 62.5%;
 }
 body {
     margin: 0;
@@ -26,25 +27,42 @@ body {
     .cabecalho__titulo {
         color:var(--rosa);
         font-weight: 100;
-        font-size: 24px;
+        font-size: 2.4rem;
+        margin: 2.0rem;
     }
 .principal{
-    background-color: var(--cinza);
-}
-    .bolinhas {
-        display: flex;
-
-
+    
     }
-        .polinhas__lista {
-            list-style: none;
+    .container {
+        background-color: var(--cinza);
+    }
+        .principal__data {
+            color: var(--rosa);
+            margin: 0;
         }
-            .lista__bolinha1 {}
-            .lista__bolinha2 {}
-            .lista__bolinha3 {}
-            .imagem {
-                height: 20px;
-                width: 20px;
-                border-radius: 30px;
+        .bolinhas {}
+
+            .polinhas__lista {
+                list-style: none;
+                
             }
-            
+                .lista__bolinha1 {
+                    height: 2.0rem;
+                    width: 2.0rem;
+                    border-radius: 3.0rem;
+                    color: var(--vermelho);
+                }
+                .lista__bolinha2 {
+                    color: var(--amarelo);
+                    height: 2.0rem;
+                    width: 2.0rem;
+                    border-radius: 3.0rem;
+                }
+                .lista__bolinha3 {
+                    color: var(--verde);
+                    height: 2.0rem;
+                    width: 2.0rem;
+                    border-radius: 3.0rem;
+                }
+                
+                
