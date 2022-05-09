@@ -31,10 +31,20 @@ body {
 .principal{
     background-color: var(--cinza);
 }
-    .cor1{
-        background-color: var(--vermelho);
-        padding: 10px;
-        border-radius: 30px;
+    .bolinhas {
+        display: flex;
+
+
     }
-    .cor2{}
-    .cor3{}
+        .polinhas__lista {
+            list-style: none;
+        }
+            .lista__bolinha1 {}
+            .lista__bolinha2 {}
+            .lista__bolinha3 {}
+            .imagem {
+                height: 20px;
+                width: 20px;
+                border-radius: 30px;
+            }
+            
