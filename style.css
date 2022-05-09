@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fira+Code:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
+:root {
+    --rosa: #BD839E ;
+    --vermelho: #E62626;
+    --amarelo: #EFCB68;
+    --verde: #5FAD56;
+    --cinza: #4F5558;
+
+     /* Cores das Notas*/
+    --azul--marinho: #2EC4B6;
+    --azul-claro: #46B1FF;
+    --roxo: #AAA1C8;
+    --rosa-claro: #EE7878;
+
+    --fonte: Fira Code;
+}
+body {
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+    .cabecalho__titulo {
+        color:var(--rosa);
+        font-weight: 100;
+        font-size: 24px;
+    }
+.principal{
+    background-color: var(--cinza);
+}
+    .cor1{
+        background-color: var(--vermelho);
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .cor2{}
+    .cor3{}
