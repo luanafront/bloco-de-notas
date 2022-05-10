@@ -24,3 +24,10 @@ principal.appendChild(bloco)
 const blocoCores = criarElemento("div", "bloco__cores")
 bloco.appendChild(blocoCores)
 
+
+const blocoCor1 = criarElemento("div", "cor1")
+blocoCores.appendChild(blocoCor1)
+const blocoCor2 = criarElemento("div", "cor2")
+blocoCores.appendChild(blocoCor2)
+const blocoCor3 = criarElemento("div", "cor3")
+blocoCores.appendChild(blocoCor3)
