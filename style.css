@@ -44,11 +44,13 @@ body {
 
             .polinhas__lista {
                 list-style: none;
+                padding: 100px;
                 
             }
                 .lista__bolinha1 {
                     height: 2.0rem;
                     width: 2.0rem;
+                    padding: 100px;
                     border-radius: 3.0rem;
                     color: var(--vermelho);
                 }
