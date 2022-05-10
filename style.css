@@ -5,6 +5,7 @@
     --amarelo: #EFCB68;
     --verde: #5FAD56;
     --cinza: #4F5558;
+    --preto: #000;
 
      /* Cores das Notas*/
     --azul--marinho: #2EC4B6;
@@ -15,3 +16,18 @@
     font-family: Fira Code;
     font-size: 62.5%;
 }
+
+body{
+    margin: 0;
+}
+.cabecalho {
+    background-color: var(--preto);
+    padding         : 2.0rem      ;
+}
+    .cabecalho__titulo {
+        color          : var(--rosa);
+        display        : flex       ;
+        justify-content: center     ;
+        font-size: 2.5rem;
+        margin: 0;
+    }
