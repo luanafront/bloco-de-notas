@@ -18,7 +18,7 @@ root.appendChild(cabecalho)
 const principal = criarElemento("main", "principal")
 root.appendChild(principal)
 
-const bloco = criarElemento("div", "principal__blobo")
+const bloco = criarElemento("div", "principal__bloco")
 principal.appendChild(bloco)
 
 const blocoCores = criarElemento("div", "bloco__cores")

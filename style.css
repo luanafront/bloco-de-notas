@@ -28,6 +28,39 @@ body{
         color          : var(--rosa);
         display        : flex       ;
         justify-content: center     ;
-        font-size: 2.5rem;
-        margin: 0;
+        font-size      : 2.5rem     ;
+        margin         : 0          ;
     }
+
+.principal {
+    background-color: var(--preto);
+}
+    .principal__bloco{
+        background-color: var(--cinza);
+    }
+        .bloco__cores {
+            display: flex;
+            display: flex;
+    flex-direction: row;
+        }
+            .cor1 {
+                padding: 0.8rem;
+                width: -1.2rem;
+                border-radius: 4.0rem;
+                background-color: var(--vermelho);
+                margin: 0.5rem;
+            }
+            .cor2 {
+                padding: 0.8rem;
+                width: -1.2rem;
+                border-radius: 4.0rem;
+                background-color: var(--amarelo);
+                margin: 0.5rem;           
+             }
+            .cor3 {
+                padding: 0.8rem;
+                width: -1.2rem;
+                border-radius: 4.0rem;
+                background-color: var(--verde);
+                margin: 0.5rem;         
+             }  
