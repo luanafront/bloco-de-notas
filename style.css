@@ -37,11 +37,12 @@ body{
 }
     .principal__bloco{
         background-color: var(--cinza);
+        margin-inline: 10%;
+        border-radius: 3.0rem;
     }
         .bloco__cores {
             display: flex;
-            display: flex;
-    flex-direction: row;
+            flex-direction: row;
         }
             .cor1 {
                 padding: 0.8rem;
