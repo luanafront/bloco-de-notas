@@ -9,7 +9,7 @@ function criarElemento(elementoHTML , classe = "", conteudo = ""){
 }
 
 const cabecalho = criarElemento("header", "cabecalho")
-const cabecalhoTitulo = criarElemento("h1", "cabecalho__titulo", "let atividadeDoDia = [")
+const cabecalhoTitulo = criarElemento("h1", "cabecalho__titulo", "let planejamento = [")
 cabecalho.appendChild(cabecalhoTitulo)
 root.appendChild(cabecalho)
 

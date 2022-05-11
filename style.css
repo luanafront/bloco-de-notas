@@ -29,56 +29,56 @@ body{
         color          : var(--rosa);
         display        : flex       ;
         justify-content: center     ;
-        font-size      : 2.5rem     ;
+        font-size      : 2.6rem     ;
         margin         : 0          ;
     }
 
 .principal {
     background-color: var(--preto);
-    padding: 2.0rem;
+    padding: 2.0rem ;
 }
     .principal__bloco{
-        background-color: var(--cinza);
-        margin-inline: 10%;
-        border-radius: 3.0rem;
+        background-color : var(--cinza) ;
+        margin-inline    : 10%          ;
+        border-radius    : 3.0rem       ;
     }
         .bloco__cores {
-            display: flex;
-            flex-direction: row;
-            padding: 1.0rem 0 0 2.0rem;
+            display       : flex             ;
+            flex-direction: row              ;
+            padding       : 1.0rem 0 0 2.0rem;
         }
             .cor1 {
-                padding: 0.8rem;
-                width: -1.2rem;
-                border-radius: 4.0rem;
+                padding         : 0.8rem         ;
+                width           : -1.2rem        ;
+                border-radius   : 4.0rem         ;
                 background-color: var(--vermelho);
-                margin: 0.5rem;
+                margin          : 0.3rem         ;
             }
             .cor2 {
-                padding: 0.8rem;
-                width: -1.2rem;
-                border-radius: 4.0rem;
+                padding         : 0.8rem        ;
+                width           : -1.2rem       ;
+                border-radius   : 4.0rem        ;
                 background-color: var(--amarelo);
-                margin: 0.5rem;           
+                margin          : 0.3rem        ;           
              }
             .cor3 {
-                padding: 0.8rem;
-                width: -1.2rem;
-                border-radius: 4.0rem;
+                padding         : 0.8rem      ;
+                width           : -1.2rem     ;
+                border-radius   : 4.0rem      ;
                 background-color: var(--verde);
-                margin: 0.5rem;         
+                margin          : 0.3rem      ;         
              } 
 
     .bloco__titulo {
-        color: var(--branco);
-        font-size: 2.0rem;
-        text-align: center;
-        font-weight: 100;
-        margin-bottom: 0;
+        color         : var(--branco);
+        font-size     : 2.0rem       ;
+        text-align    : center       ;
+        font-weight   : 100          ;
+        margin-bottom : 0            ;
     }
     .bloco__subtitulo {
-        color: var(--branco);
-        font-size: 1.3rem;
-        text-align: center;
-        margin-top: 0.5rem;
+        color     : var(--branco);
+        font-size : 1.3rem       ;
+        text-align: center       ;
+        margin-top: 0.5rem       ;
     }
