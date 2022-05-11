@@ -23,7 +23,7 @@ body{
 }
 .cabecalho {
     background-color: var(--preto);
-    padding         : 2.0rem      ;
+    padding         : 3.0rem      ;
 }
     .cabecalho__titulo {
         color          : var(--rosa);
@@ -35,6 +35,7 @@ body{
 
 .principal {
     background-color: var(--preto);
+    padding: 2.0rem;
 }
     .principal__bloco{
         background-color: var(--cinza);
@@ -44,6 +45,7 @@ body{
         .bloco__cores {
             display: flex;
             flex-direction: row;
+            padding: 1.0rem 0 0 2.0rem;
         }
             .cor1 {
                 padding: 0.8rem;
@@ -70,8 +72,13 @@ body{
     .bloco__titulo {
         color: var(--branco);
         font-size: 2.0rem;
+        text-align: center;
+        font-weight: 100;
+        margin-bottom: 0;
     }
     .bloco__subtitulo {
         color: var(--branco);
         font-size: 1.3rem;
+        text-align: center;
+        margin-top: 0.5rem;
     }
