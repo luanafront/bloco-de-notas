@@ -6,6 +6,7 @@
     --verde: #5FAD56;
     --cinza: #4F5558;
     --preto: #000;
+    --branco: #fff;
 
      /* Cores das Notas*/
     --azul--marinho: #2EC4B6;
@@ -64,4 +65,13 @@ body{
                 border-radius: 4.0rem;
                 background-color: var(--verde);
                 margin: 0.5rem;         
-             }  
+             } 
+
+    .bloco__titulo {
+        color: var(--branco);
+        font-size: 2.0rem;
+    }
+    .bloco__subtitulo {
+        color: var(--branco);
+        font-size: 1.3rem;
+    }
