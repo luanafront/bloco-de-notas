@@ -1,3 +1,12 @@
+/**Funções que precisa ter no site -  Funcionalidades
+ * 1- Uma lixeira para excluir o input caso seja clicada, ligada apenas no input clicado.
+ * 2- Ao clicar no + aparecer um novo input com a barra de texto para adcionar uma nova mensagem.
+ * 3- No novo input criado, deve ter uma lixeira ligada a ele.
+ * 
+ * as cores das mensagens devem ser alternados com a palheta disponível.
+ */
+
+
 const root = document.getElementById("root")
 
 function criarElemento(elementoHTML , classe = "", conteudo = ""){
@@ -72,6 +81,16 @@ setInterval( function() {
     const horaComposta = `${hora}:${minutos}:${segundos}`
     blocoSubtitulo.innerText = horaComposta
 }, 1000)
+
+
+
+const input1 = document.createElement("input")
+input1.type = "checkbox"
+input1.classList.add("input1")
+input1.innerText = "Oi"
+bloco.appendChild(input1)
+
+
 
 
 
