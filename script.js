@@ -82,6 +82,11 @@ setInterval( function() {
     blocoSubtitulo.innerText = horaComposta
 }, 1000)
 
+const botaoAdcionar = document.createElement("button")
+botaoAdcionar.classList.add("principal__botao")
+botaoAdcionar.innerText = ("+")
+bloco.appendChild(botaoAdcionar)
+
 
 
 const input1 = document.createElement("input")

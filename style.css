@@ -82,3 +82,12 @@ body{
         text-align: center       ;
         margin-top: 0.5rem       ;
     }
+
+    .principal__botao {
+        color: var(--preto);
+        background-color: var(--cinza);
+        border: 0px;
+        font-size: 3rem;
+        cursor: pointer;
+}
+    
