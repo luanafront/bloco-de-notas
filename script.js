@@ -82,6 +82,10 @@ setInterval( function() {
     blocoSubtitulo.innerText = horaComposta
 }, 1000)
 
+const divNotas = document.createElement("div")
+divNotas.classList.add("div__notas")
+bloco.appendChild(divNotas)
+
 const botaoAdcionar = document.createElement("button")
 botaoAdcionar.classList.add("principal__botao")
 botaoAdcionar.innerText = ("+")
@@ -92,20 +96,17 @@ function adcionarNota(){
     const input1 = document.createElement("input")
     input1.type = "checkbox"
     input1.classList.add("input1")
-    bloco.appendChild(input1)
+    divNotas.appendChild(input1)
 
     const divInput = document.createElement("div")
     divInput.classList.add("div__input")
-    bloco.appendChild(divInput)
+    divNotas.appendChild(divInput)
     
     divInput.addEventListener("click", function(){
-        bloco.removeChild(divInput)
-        bloco.removeChild(input1) 
+        divNotas.removeChild(divInput)
+        divNotas.removeChild(input1) 
     })
-    
 }
-
-
 
 botaoAdcionar.addEventListener("click", adcionarNota)
 

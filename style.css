@@ -89,6 +89,8 @@ body{
         border          : 0px         ;
         font-size       : 3rem        ; 
         cursor          : pointer     ;
+        border-radius   : 2.0rem      ;
+        margin          : 1.0rem      ;
 }
     .div__input {
         background-color: var(--vermelho);
