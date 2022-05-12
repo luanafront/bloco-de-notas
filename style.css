@@ -84,10 +84,16 @@ body{
     }
 
     .principal__botao {
-        color: var(--preto);
+        color           : var(--preto);
         background-color: var(--cinza);
-        border: 0px;
-        font-size: 3rem;
-        cursor: pointer;
+        border          : 0px         ;
+        font-size       : 3rem        ; 
+        cursor          : pointer     ;
 }
-    
+    .div__input {
+        background-color: var(--vermelho);
+        height: 1.0rem;
+        width: 1rem;
+        display: inline-block;
+
+    }

@@ -88,18 +88,21 @@ botaoAdcionar.innerText = ("+")
 bloco.appendChild(botaoAdcionar)
 
 
+function adcionarNota(){
+    const input1 = document.createElement("input")
+    input1.type = "checkbox"
+    input1.classList.add("input1")
+    input1.innerText = "Oi"
+    bloco.appendChild(input1)
 
-const input1 = document.createElement("input")
-input1.type = "checkbox"
-input1.classList.add("input1")
-input1.innerText = "Oi"
-bloco.appendChild(input1)
+    const divInput = document.createElement("div")
+    divInput.classList.add("div__input")
+    bloco.appendChild(divInput)
+    
+    
+}
 
 
 
-
-
-
-
-
+botaoAdcionar.addEventListener("click", adcionarNota)
 
