@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fira+Code:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
 :root {
-    --rosa: #BD839E ;
+    --rosa    : #BD839E;
     --vermelho: #E62626;
-    --amarelo: #EFCB68;
-    --verde: #5FAD56;
-    --cinza: #4F5558;
-    --preto: #000;
-    --branco: #fff;
+    --amarelo : #EFCB68;
+    --verde   : #5FAD56;
+    --cinza   : #4F5558;
+    --preto   : #000   ;
+    --branco  : #fff   ;
 
      /* Cores das Notas*/
-    --azul--marinho: #2EC4B6;
-    --azul-claro: #46B1FF;
-    --roxo: #AAA1C8;
-    --rosa-claro: #EE7878;
+    --azul--marinho : #2EC4B6;
+    --azul-claro    : #46B1FF;
+    --roxo          : #AAA1C8;
+    --rosa-claro    : #EE7878;
 
     font-family: Fira Code;
-    font-size: 62.5%;
+    font-size  : 62.5%    ;
 }
 
 body{
@@ -35,7 +35,7 @@ body{
 
 .principal {
     background-color: var(--preto);
-    padding: 2.0rem ;
+    padding         : 2.0rem      ;
 }
     .principal__bloco{
         background-color : var(--cinza) ;
@@ -83,19 +83,23 @@ body{
         margin-top: 0.5rem       ;
     }
 
-    .principal__botao {
-        color           : var(--preto);
-        background-color: var(--cinza);
-        border          : 0px         ;
-        font-size       : 3rem        ; 
-        cursor          : pointer     ;
-        border-radius   : 2.0rem      ;
-        margin          : 1.0rem      ;
-}
-    .div__input {
-        background-color: var(--vermelho);
-        height: 1.0rem;
-        width: 1rem;
-        display: inline-block;
-
+    .div__notas {
+    
     }
+        .lista__notas {}
+
+            .principal__botao {
+                color           : var(--preto);
+                background-color: var(--cinza);
+                border          : 0px         ;
+                font-size       : 3rem        ; 
+                cursor          : pointer     ;
+                border-radius   : 2.0rem      ;
+                margin          : 1.0rem      ;
+            }
+            .checkbox {}
+            .lixeira {
+                width            : 3rem           ;
+                display          : inline-block   ;
+
+            }

@@ -93,18 +93,23 @@ bloco.appendChild(botaoAdcionar)
 
 
 function adcionarNota(){
-    const input1 = document.createElement("input")
-    input1.type = "checkbox"
-    input1.classList.add("input1")
-    divNotas.appendChild(input1)
+    const listaNotas = document.createElement("div")
+    listaNotas.classList.add("lista__notas")
+    divNotas.appendChild(listaNotas)
 
-    const divInput = document.createElement("div")
-    divInput.classList.add("div__input")
-    divNotas.appendChild(divInput)
+    const checkbox = document.createElement("input")
+    checkbox.type = "checkbox"
+    checkbox.classList.add("checkbox")
+    listaNotas.appendChild(checkbox)
+
+    const lixeira = document.createElement("img")
+    lixeira.classList.add("lixeira")
+    lixeira.src = "./assests/lixeira.png"
+    listaNotas.appendChild(lixeira)
     
-    divInput.addEventListener("click", function(){
-        divNotas.removeChild(divInput)
-        divNotas.removeChild(input1) 
+    lixeira.addEventListener("click", function(){
+        divNotas.removeChild(listaNotas)
+
     })
 }
 
