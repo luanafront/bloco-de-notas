@@ -7,6 +7,7 @@
     --cinza   : #4F5558;
     --preto   : #000   ;
     --branco  : #fff   ;
+    --cinza-input: #696d6e;
 
      /* Cores das Notas*/
     --azul--marinho : #2EC4B6;
@@ -111,6 +112,7 @@ body{
                 background-color: var(--branco);
                 border-radius: 2.0rem;
                 transition: .5s;
+                background-color: #363d40;
             }
             .checkbox__clicado {
                 width: 1.7rem;
@@ -150,6 +152,7 @@ body{
                 font-family: Fira Code;
                 margin-block: 1.0rem;
                 border-radius: .7rem;
+                background-color:var(--cinza-input) ;
             }
                 .campo__texto--add {
                     background-color: transparent;

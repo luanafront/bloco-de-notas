@@ -142,8 +142,11 @@ function adcionarNota(){
     
         campoTexto.addEventListener("blur",function(e){
             let valor = e.target.value
-            if( valor.length > 0 ){
+            if( valor.length > 0){
+    
                 campoTexto.classList.add("campo__texto--add")
+            } else {
+                campoTexto.classList.remove("campo__texto--add")  
             }
         } )
     
