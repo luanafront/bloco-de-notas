@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fira+Code:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
+@keyframes aparecer {
+    25% {
+        transform: translateX(4px);
+    }
+    50% {
+        transform: translateX(-4px);
+    }
+    75% {
+        transform: translateX(4px);
+    }
+}
 :root {
     --rosa    : #BD839E;
     --vermelho: #E62626;
@@ -31,13 +42,14 @@ body{
         color          : var(--rosa);
         display        : flex       ;
         justify-content: center     ;
-        font-size      : 2.6rem     ;
+        font-size      : 2.5rem     ;
         margin         : 0          ;
     }
 
 .principal {
     background-color: var(--preto);
     padding         : 2.0rem      ;
+    min-height      : 100vh       ;
 }
     .principal__bloco{
         background-color : var(--cinza) ;
@@ -85,12 +97,14 @@ body{
         margin-top: 0.5rem       ;
     }
 
-    .div__notas {}
+    .div__notas {
+    }
         .lista__notas {
             width          : 100%        ;
             display        : flex        ;
             align-items    : center      ;
             justify-content: space-evenly;
+            animation      : aparecer 1s ;
         }
 
             .principal__botao {
@@ -105,12 +119,12 @@ body{
                 
             }
             .checkbox {
-                width           : 1.7rem;
-                height          : 1.7rem;
+                width           : 1.7rem       ;
+                height          : 1.7rem       ;
                 background-color: var(--branco);
-                border-radius   : 2.0rem;
-                transition      : .5s;
-                background-color: #363d40;
+                border-radius   : 2.0rem       ;
+                transition      : .5s          ;
+                background-color: #707778    ;
             }
             .checkbox__clicado {
                 width           : 1.7rem      ;
@@ -152,7 +166,7 @@ body{
                 font-weight     : 600              ;
                 margin-block    : .8rem            ;
                 border-radius   : .7rem            ;
-                background-color:var(--cinza-input);
+                background-color:#5e6668          ;
             }
                 .campo__texto--add {
                     background-color: transparent;
@@ -163,7 +177,7 @@ body{
             }
     .principal__fechamento {
         color    : var(--rosa);
-        font-size: 2.6rem     ;
+        font-size: 2.5rem     ;
     }
     .principal__executarFuncao {
         color     : var(--rosa);
