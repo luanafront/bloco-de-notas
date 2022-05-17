@@ -3,7 +3,7 @@
  * 2- Ao clicar no + aparecer um novo input com a barra de texto para adcionar uma nova mensagem.
  * 3- No novo input criado, deve ter uma lixeira ligada a ele.
  * 
- * as cores das mensagens devem ser alternados com a palheta disponível.
+ * as cores das mensagens devem ser aleatorias com a palheta disponível.
  */
 
 
@@ -187,6 +187,7 @@ function adcionarNota(){
 
 }
 botaoAdcionar.addEventListener("click", adcionarNota)
+
 
 const fechamento = document.createElement("h2")
 fechamento.classList.add("principal__fechamento")
