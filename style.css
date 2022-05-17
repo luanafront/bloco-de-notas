@@ -155,7 +155,7 @@ body{
                 width           : 1rem                             ;
                 height          : .3rem                            ;
                 background-color: var(--branco)                    ;
-                transform       : rotate(-45deg) translate(2px,7px);
+                transform       : rotate(-45deg) translate(1px,6.7px);
                 transition      : 1s                               ;
             }
             .campo__texto {
