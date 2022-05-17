@@ -105,7 +105,45 @@ body{
                 margin          : 1.0rem auto ;
                 
             }
-            .checkbox {}
+            .checkbox {
+                width: 1.7rem;
+                height: 1.7rem;
+                background-color: var(--branco);
+                border-radius: 2.0rem;
+                transition: .5s;
+            }
+            .checkbox__clicado {
+                width: 1.7rem;
+                height: 1.7rem;
+                background-color: var(--verde);
+                border-radius: 2.0rem;
+                transition: .5s;
+            }
+
+            .reta1{
+                width: .8rem;
+                height: .3rem;
+                transition: 1s;
+            }
+            .reta2 {
+                width: 1rem;
+                height: .3rem;
+                transition: 1s;
+            }
+            .reta1__clicada{
+                width: .8rem;
+                height: .3rem;
+                background-color: var(--branco);
+                transform: rotate(45deg) translate(7px, 5px);
+                transition: 1s;
+            }
+            .reta2__clicada {
+                width: 1rem;
+                height: .3rem;
+                background-color: var(--branco);
+                transform: rotate(-45deg) translate(2px,7px);
+                transition: 1s;
+            }
             .campo__texto {
                 outline: none;
                 border: 0;
@@ -117,7 +155,7 @@ body{
                     
                 }
             .lixeira {
-                width            : 3rem           ;
+                width            : 2.5rem           ;
                 display          : inline-block   ;
 
             }

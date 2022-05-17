@@ -97,17 +97,25 @@ function adcionarNota(){
     listaNotas.classList.add("lista__notas")
     divNotas.appendChild(listaNotas)
 
-    const checkbox = document.createElement("input")
-    checkbox.type = "checkbox"
+
+
+    const checkbox = document.createElement("div")
     checkbox.classList.add("checkbox")
     listaNotas.appendChild(checkbox)
+
+    const reta1 = document.createElement("div")
+    reta1.classList.add("reta1")
+    checkbox.appendChild(reta1)
+
+    const reta2 = document.createElement("div")
+    reta2.classList.add("reta2")
+    checkbox.appendChild(reta2)
 
     const campoTexto = document.createElement("input")
     campoTexto.classList.add("campo__texto")
     listaNotas.appendChild(campoTexto)
 
-    campoTexto.addEventListener("blur",function(e){
-        let valor = e.target.value
+    campoTexto.addEventListener("blur",function(){
         campoTexto.classList.add("campo__texto--add")
     } )
 
@@ -119,6 +127,30 @@ function adcionarNota(){
     lixeira.addEventListener("click", function(){
         divNotas.removeChild(listaNotas)
 
+    })
+
+    checkbox.addEventListener("click", function(e){
+
+        if (checkbox.className === "checkbox"){
+
+            checkbox.classList.remove("checkbox")
+            reta1.classList.remove("reta1")
+            reta2.classList.remove("reta2")
+
+            checkbox.classList.add("checkbox__clicado")
+            reta1.classList.add("reta1__clicada")
+            reta2.classList.add("reta2__clicada")
+        }
+
+        else if(checkbox.className === "checkbox__clicado"){
+            checkbox.classList.remove("checkbox__clicado")
+            reta1.classList.remove("reta1__clicada")
+            reta2.classList.remove("reta2__clicada")
+
+            checkbox.classList.add("checkbox")
+            reta1.classList.add("reta1")
+            reta2.classList.add("reta2")
+        }
     })
 }
 
