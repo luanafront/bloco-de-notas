@@ -186,6 +186,15 @@ function adcionarNota(){
     }
 
 }
-
 botaoAdcionar.addEventListener("click", adcionarNota)
+
+const fechamento = document.createElement("h2")
+fechamento.classList.add("principal__fechamento")
+fechamento.innerText = "]"
+principal.appendChild(fechamento)
+
+const executarFuncao = document.createElement("h2")
+executarFuncao.classList.add("principal__executarFuncao")
+executarFuncao.innerText = "console.log(planejamento)"
+principal.appendChild(executarFuncao)
 

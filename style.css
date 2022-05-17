@@ -86,7 +86,7 @@ body{
     }
 
     .div__notas {
-    
+        margin:
     }
         .lista__notas {
             width: 100%;
@@ -150,7 +150,9 @@ body{
                 outline: none;
                 border: 0;
                 font-family: Fira Code;
-                margin-block: 1.0rem;
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-block: .8rem;
                 border-radius: .7rem;
                 background-color:var(--cinza-input) ;
             }
@@ -163,3 +165,12 @@ body{
                 display          : inline-block   ;
 
             }
+    .principal__fechamento {
+        color: var(--rosa);
+        font-size: 2.6rem;
+    }
+    .principal__executarFuncao {
+        color: var(--rosa);
+        font-size: 1.8rem;
+        text-align: center;
+    }
