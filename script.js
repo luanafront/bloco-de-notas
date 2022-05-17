@@ -102,6 +102,15 @@ function adcionarNota(){
     checkbox.classList.add("checkbox")
     listaNotas.appendChild(checkbox)
 
+    const campoTexto = document.createElement("input")
+    campoTexto.classList.add("campo__texto")
+    listaNotas.appendChild(campoTexto)
+
+    campoTexto.addEventListener("blur",function(e){
+        let valor = e.target.value
+        campoTexto.classList.add("campo__texto--add")
+    } )
+
     const lixeira = document.createElement("img")
     lixeira.classList.add("lixeira")
     lixeira.src = "./assests/lixeira.png"

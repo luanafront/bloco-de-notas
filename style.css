@@ -20,6 +20,7 @@
 
 body{
     margin: 0;
+    font-family: Fira Code;
 }
 .cabecalho {
     background-color: var(--preto);
@@ -86,7 +87,12 @@ body{
     .div__notas {
     
     }
-        .lista__notas {}
+        .lista__notas {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
 
             .principal__botao {
                 color           : var(--preto);
@@ -95,9 +101,21 @@ body{
                 font-size       : 3rem        ; 
                 cursor          : pointer     ;
                 border-radius   : 2.0rem      ;
-                margin          : 1.0rem      ;
+                display: block;
+                margin          : 1.0rem auto ;
+                
             }
             .checkbox {}
+            .campo__texto {
+                outline: none;
+                border: 0;
+                font-family: Fira Code;
+                margin-block: 1.0rem;
+            }
+                .campo__texto--add {
+                    background-color: transparent;
+                    
+                }
             .lixeira {
                 width            : 3rem           ;
                 display          : inline-block   ;
