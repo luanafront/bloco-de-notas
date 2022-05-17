@@ -108,14 +108,12 @@ function adcionarNota(){
     }
  
     if(podeInserir){
-        const listaCores = [ 
-            "#2EC4B6",
-            "#46B1FF",
-            "#AAA1C8",
-            "#EE7878"
-        ]
+        let hexadecimal = "123456789ABCDEF"
         
-        let cor = listaCores[random(0, listaCores.length - 1)]
+        let cor = "#"
+        for( let i = 0; i < 6; i++){
+            cor += hexadecimal[random(0, hexadecimal.length - 1)]
+        }
     
         const listaNotas = document.createElement("div")
         listaNotas.classList.add("lista__notas")
